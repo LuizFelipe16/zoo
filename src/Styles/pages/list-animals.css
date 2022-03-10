@@ -1,0 +1,167 @@
+#page-list-animals {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#page-list-animals div.page-list-content {
+  width: 91%;
+  height: auto;
+  min-height: 100vh;
+
+  margin-left: 123px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-list-animals div.page-list-content > div.header {
+  width: 100%;
+  height: 40vh;
+
+  padding-top: 8rem;
+  background-color: var(--color-primary-dark);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#page-list-animals div.page-list-content > div.header h1 {
+  width: 30%;
+  font: 800 2.5rem Nunito;
+  color: #fff;
+}
+
+div.grid-list-cards-animals {
+  width: 100%;
+  height: auto;
+  min-height: 39rem;
+
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+/*Card de Animais */
+
+div.card-animal {
+  width: 25%;
+  height: 30rem;
+
+  background-color: #fff;
+  border-top: 3px solid var(--color-primary);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  
+  box-shadow: -1px 1px 20px -10px rgba(0,0,0,0.48);
+  -webkit-box-shadow: -1px 1px 20px -10px rgba(0,0,0,0.48);
+  -moz-box-shadow: -1px 1px 20px -10px rgba(0,0,0,0.48);
+
+  transition: 0.2s;
+}
+
+div.card-animal img {
+  object-fit: cover;
+}
+
+div.card-animal:hover {
+  margin-top: -20px;
+}
+
+div.card-animal > header {
+  width: 100%;
+  height: 19rem;
+  overflow: hidden;
+  image-rendering: optimizeQuality;
+  object-fit: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card-animal > header img {
+  width: 100%;
+  height: 19rem;
+  object-fit: cover;
+}
+
+div.card-animal > div.card-body {
+  width: 100%;
+  height: auto;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.card-animal > div.card-body span {
+  font: 700 1.8rem Nunito;
+  color: var(--color-primary);
+}
+
+div.card-animal > div.card-body button {
+  width: 40%;
+
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+
+  box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.38);
+
+  transition: 0.2s;
+}
+
+div.card-animal > div.card-body button:hover {
+  filter: brightness(93%);
+}
+
+div.card-animal > div.card-body div.tooltip-button {
+  width: 14rem;
+  height: 4rem;
+  position: absolute;
+
+  padding: 0.6rem;
+  border-bottom: 2px solid var(--color-primary);
+  border-radius: 25px;
+  background-color: #fff;
+
+  margin-top: -100px;
+  margin-left: 145px;
+
+  font: 700 1.5rem Nunito;
+  color: var(--color-primary);
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.card-animal > div.card-body button:hover + div.tooltip-button {
+  display: flex !important;
+}
+
+
+

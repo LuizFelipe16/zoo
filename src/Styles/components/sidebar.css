@@ -1,0 +1,130 @@
+aside.sidebar {
+    width: 10%;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    position: fixed;
+    z-index: 100;
+
+    padding: 2rem;
+    background: var(--color-primary);
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+    justify-self: flex-start;
+
+    transition: 0.6s;
+}
+
+aside.sidebar:hover {
+    width: 25%;
+}
+
+aside.sidebar > div.menu-links {
+    width: 80%;
+    min-height: 50%;
+    height: auto;
+
+    background: transparent;
+    /* border-top: 0.7rem #fff solid; */
+    color: #fff;
+    margin-left: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    display: none;
+
+    transition: 2s;
+}
+
+aside.sidebar > div.link-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+aside.sidebar > div.menu-links > div.link-container > a {
+    font: 800 2.3rem Nunito;
+    color: #fff;
+
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    transition: 0.8s;
+}
+
+aside.sidebar > div.menu-links > div.link-container > hr {
+    width: 20%;
+    height: 0.5rem;
+
+    border: none;
+    background: #fff;
+    margin-left: 0.3rem;
+
+    transition: 0.7s;
+}
+
+aside.sidebar > div.menu-links > div.link-container:hover hr {
+    width: 100%;
+}
+
+aside.sidebar > div.sidebar-footer {
+    width: 100%;
+    
+    padding: 2rem;
+    border-top: 3px solid #fff;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside.sidebar > div.sidebar-footer h2 {
+    font: 700 2rem Nunito;
+}
+aside.sidebar > div.sidebar-footer h3 {
+    font: 400 2.2rem Nunito;
+}
+
+aside.sidebar:hover > div.menu-links {
+    display: flex;
+}
+
+aside.sidebar > h1 {
+    font: 700 3rem Nunito;
+    display: none;
+}
+
+aside.sidebar:hover > h1 {
+    display: flex;
+}
+
+aside.sidebar:hover > div.sidebar-footer {
+    display: flex;
+}
+
+aside.sidebar > .menu-ico {
+    transition: 0.4s;
+}
+
+aside.sidebar:hover > .menu-ico {
+    opacity: 0;
+}

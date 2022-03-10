@@ -1,0 +1,45 @@
+#page-alert {
+  width: 100vw;
+  height: 100vh;
+
+  padding: 3rem;
+
+  background-color: var(--color-primary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-alert h1 {
+  font: 700 3rem Nunito;
+  color: #FFF;
+
+  margin: 5rem;
+}
+
+#page-alert a {
+  width: 35%;
+  height: 7rem;
+
+  padding: 1rem;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+
+  font: 700 2.5rem Nunito;
+  color: var(--color-primary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+#page-alert a:hover {
+  filter: brightness(85%);
+}

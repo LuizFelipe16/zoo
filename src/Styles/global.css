@@ -1,0 +1,134 @@
+:root {
+  --color-background: #F0F0F7;
+  
+  --color-primary: #32BF84;
+  --color-primary-light: #CAFFFB;
+  --color-primary-dark:  #2daf79;
+
+  --color-button-success: #04D361;
+  --color-button-success-dark: #04BF58;
+
+  --color-line-in-white: #E6E6F0;
+  --color-input-background: #F8F8FC;
+  --color-box-footer: #e9e9eb;
+
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  background: var(--color-background);
+  overflow-x: hidden;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+  font: 500 1.6rem Nunito;
+}
+
+h1, h2 {
+  font: 500 3rem Nunito;
+}
+
+
+
+
+
+
+/* Scrool */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+
+
+
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 0.7s ease-in-out;
+  -moz-animation: fadeIn 0.7s ease-in-out;
+  -o-animation: fadeIn 0.7s ease-in-out;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.fadeOptions {
+  -webkit-animation: fadeIn 0.3s ease-in-out;
+  -moz-animation: fadeIn 0.3s ease-in-out;
+  -o-animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+
+.display-none {
+  display: none !important;
+}
+
+
+@media (min-width: 700px) {
+  :root {
+      font-size: 62.5%;
+  }
+}
+
+
+/**/
+
+#load {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.page-load {
+  width: 90%;
+  height: 100vh;
+
+  margin-left: 130px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-load > div {
+  width: 100px;
+  height: 100px;
+}
