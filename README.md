@@ -1,4 +1,4 @@
-![Banner](/src/assets/git/banner.png)
+![Banner](/src/Assets/git/banner.png)
 
 <br/>
 
@@ -81,31 +81,31 @@ Screen Shots
 
 - Home
 
-![ScreenShot](/src/assets/git/home.png)
+![ScreenShot](/src/Assets/git/home.png)
 
 <br/>
 
 - Dashboard
 
-![ScreenShot](/src/assets/git/dashboard.png)
+![ScreenShot](/src/Assets/git/dashboard.png)
 
 <br/>
 
 - Wiki
 
-![ScreenShot](/src/assets/git/wiki.png)
+![ScreenShot](/src/Assets/git/wiki.png)
 
 <br/>
 
 - Form Part 1
 
-![ScreenShot](/src/assets/git/formp1.png)
+![ScreenShot](/src/Assets/git/formp1.png)
 
 <br/>
 
 - Form Part 2
 
-![ScreenShot](/src/assets/git/formp2.png)
+![ScreenShot](/src/Assets/git/formp2.png)
 
 <br/>
 
